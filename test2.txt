@@ -1,0 +1,24 @@
+<projects>
+    <project name = "xml">
+        <member role="developer" name="fedya"/>
+        <member role="manager" name="Ivan"/>
+    </project>
+    <project name = "rpc">
+        <member role="developer" name="fedya"/>
+        <member role="manager" name="Tanya"/>
+        <member role="hr" name="Vasya"/>
+        <member role="leader" name="Masha"/>
+    </project>
+    <project name = "txt">
+        <member role="developer" name="fedya"/>
+        <member role="hr" name="Tanya"/>
+        <member role="developer" name="Vasya"/>
+        <member role="developer" name="Masha"/>
+    </project>
+    <project name = "JAVA">
+        <member role="developer" name="Ivan"/>
+        <member role="developer" name="Lena"/>
+        <member role="developer" name="R2D2"/>
+        <member role="Tester" name="Tanya"/>
+    </project>
+</projects>
