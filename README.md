@@ -1,5 +1,5 @@
 Создание базы данных и её визуализация
-
+```sql
 CREATE DATABASE `members`;
 CREATE TABLE `projects`(
 	projectId VARCHAR(6) PRIMARY KEY,
@@ -16,5 +16,5 @@ CREATE TABLE `projects_members` (
     FOREIGN KEY (projectId) REFERENCES projects(projectId),
     FOREIGN KEY (memberId) REFERENCES members(memberId) 
 );
-
+```
 ![alt text](https://puu.sh/AjIkT/a50cd43381.png)
